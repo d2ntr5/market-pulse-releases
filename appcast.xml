@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Market Pulse</title>
+    <item>
+      <title>Market Pulse 0.1.0</title>
+      <pubDate>Wed, 04 Nov 2026 12:55:09 GMT</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>처음 공개. 한국투자증권 Open API(조회 전용)로 관심종목의 주가 · 외국계 거래원 순매수 · 뉴스 · 대차잔고를 이 맥에서 직접 모읍니다.</li>
+<li>관심종목 카드: 주가선 + 외국계 거래원별 누적 순매수선 + 전일 종가 점선, 당일 · 하루씩 · 최근 5거래일.</li>
+<li>15:40 마감 스냅샷(동시호가 포함 외국계 합계), 뉴스 제목 10분마다, 대차잔고(T+1) 화면.</li>
+<li>「AI 분석」을 누른 종목만 Claude(haiku 모델)로 분석. 사용량은 설정 › AI에.</li>
+<li>메뉴 막대: 첫 관심종목 등락률과 요약 팝업. 창을 닫아도 메뉴 막대에 남아 수집을 이어 갑니다.</li>
+<li>키(KIS 앱 키 · 시크릿, Claude API 키)는 앱 전용 키체인에만 저장. 머리 색 9가지 · 글씨 크기 · 앱 안 업데이트.</li>
+</ul>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/market-pulse-releases/main/releases/MarketPulse-0.1.0.zip" length="3380781" type="application/octet-stream" sparkle:edSignature="EPMX+thCZIGd+oP8wahanr/DEdbTIl9LrQpj8lBR/1xcK2GKjEpW1r80ZOG7yNhSWhHnXnUIwybE5EQEkdPICw=="/>
+    </item>
+  </channel>
+</rss>
