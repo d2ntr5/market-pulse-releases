@@ -3,18 +3,15 @@
   <channel>
     <title>Market Pulse</title>
     <item>
-      <title>Market Pulse 0.3.1</title>
-      <pubDate>Fri, 06 Nov 2026 07:13:07 GMT</pubDate>
-      <sparkle:version>24</sparkle:version>
-      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <title>Market Pulse 0.4.0</title>
+      <pubDate>Fri, 06 Nov 2026 08:23:35 GMT</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>앱과 웹을 같은 모양으로 맞추는 첫 단계입니다.</p>
-<ul>
-<li>차트 외국계 칸의 거래원 숫자를 <b>선 끝</b>으로 옮기고, 숫자 뒤에 <b>전일 누적 순매수</b>를 괄호로 흐리게 보여 줍니다(웹과 같은 규칙, 예: <code>+20,653주 (-5,000주)</code>). 자리가 모자라면 괄호는 숫자 아래 줄로 내려가고, 바로 앞 거래일에 그 거래원 기록이 없으면 괄호를 쓰지 않습니다. 칸 머리에는 거래원 이름만 남습니다. 「거래원 순위」 탭에도 같은 괄호가 나옵니다.</li>
-<li>카드 아래 띠를 15분 증가량 막대에서 <b>외국계 합계 누적 막대</b>(플러스 빨강 · 마이너스 파랑)로 바꿨습니다.</li>
-<li>어둡게 모드의 거래원 색을 웹의 어둡게 색으로 맞췄습니다.</li>
+      <description><![CDATA[<ul>
+<li><b>섹터 화면</b>을 넣었습니다(머리의 카드 · 섹터 · 차트). 웹 «선물-섹터별-외국 브로커 동향»과 같은 화면입니다: 섹션 탭, 종목마다 주가(왼쪽 축)와 외국계 거래원별 누적 순매수(오른쪽 축), 선 끝 숫자와 전일 누적 괄호, 일정 칩, 세로 눈금 배지, 십자선. 창이 넓으면 지난 날이 더 보입니다. 섹션은 공용이고 「섹션 관리」는 웹에서 엽니다. 카드를 두 번 누르면 그 종목 차트로 갑니다.</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/market-pulse-releases/main/releases/MarketPulse-0.3.1.zip" length="4209456" type="application/octet-stream" sparkle:edSignature="V5Pyyn1B//0jMocmmNOkI1a7jZl8uKiRUC7sl47eGPQRVqGNijF5BgKOdJBhhJq6Sf3MZESKUoZoeyg713+kCg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/market-pulse-releases/main/releases/MarketPulse-0.4.0.zip" length="4456484" type="application/octet-stream" sparkle:edSignature="ZexjmKAE5JO7pzPp0LyVLNNimKZgCx81tWLy3cXB/k/mUSFZEk661QSZ+u9BLVvz0Myd48yWijR5cDo/D3EDAA=="/>
     </item>
   </channel>
 </rss>
