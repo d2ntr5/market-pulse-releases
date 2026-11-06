@@ -3,19 +3,18 @@
   <channel>
     <title>Market Pulse</title>
     <item>
-      <title>Market Pulse 0.3.0</title>
-      <pubDate>Fri, 06 Nov 2026 01:46:21 GMT</pubDate>
-      <sparkle:version>14</sparkle:version>
-      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <title>Market Pulse 0.3.1</title>
+      <pubDate>Fri, 06 Nov 2026 07:13:07 GMT</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul>
-<li>미국 주식(나스닥 · 뉴욕 · 아멕스): 관심종목에 더할 수 있습니다(서버 수집 상한 64종목에 함께 셈). 종목 찾기는 한글명 · 영문명 · 티커로.</li>
-<li>미국 종목은 <b>한국 시간 · 원화</b>로 보여 줍니다. 차트 봉은 봉마다 그 봉의 환율로 원화 환산하고, 달러 · 환율은 범례(십자선) · 정보 칸 · 카드에 보조로. <code>US</code> 표시, 관심종목 «국내 / 미국» 묶음, 외국계 대신 거래대금(원화), 미국 정규장 밖 바탕(서버 기준, 한국 시간으로 서머타임 22:30–05:00 · 평소 23:30–06:00). 미국 종목은 거래원 순위 · 대차잔고 탭이 없습니다.</li>
-<li>미국 종목이 있으면 뉴욕 장 시간(한국 저녁~아침)에도 1분마다 새로 받습니다.</li>
-<li>새 지표(「𝑓x 지표」에서 켜고 끄며 상태를 기억): 이동평균 120 · 240(240은 일 · 주 · 월봉) · 단순/지수 고르기, VWAP(분봉, 매일 정규장 시작에 초기화 — 국내 09:00, 미국 뉴욕 09:30), 볼린저 밴드 20 · 2, 매물대(보이는 구간 24칸, 봉 거래량을 고가~저가에 고르게 나눈 근사), 거래량 이평 20, MACD 12 · 26 · 9 칸.</li>
-<li>국내 종목 화면은 0.2.0 그대로입니다.</li>
+      <description><![CDATA[<p>앱과 웹을 같은 모양으로 맞추는 첫 단계입니다.</p>
+<ul>
+<li>차트 외국계 칸의 거래원 숫자를 <b>선 끝</b>으로 옮기고, 숫자 뒤에 <b>전일 누적 순매수</b>를 괄호로 흐리게 보여 줍니다(웹과 같은 규칙, 예: <code>+20,653주 (-5,000주)</code>). 자리가 모자라면 괄호는 숫자 아래 줄로 내려가고, 바로 앞 거래일에 그 거래원 기록이 없으면 괄호를 쓰지 않습니다. 칸 머리에는 거래원 이름만 남습니다. 「거래원 순위」 탭에도 같은 괄호가 나옵니다.</li>
+<li>카드 아래 띠를 15분 증가량 막대에서 <b>외국계 합계 누적 막대</b>(플러스 빨강 · 마이너스 파랑)로 바꿨습니다.</li>
+<li>어둡게 모드의 거래원 색을 웹의 어둡게 색으로 맞췄습니다.</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/market-pulse-releases/main/releases/MarketPulse-0.3.0.zip" length="4164024" type="application/octet-stream" sparkle:edSignature="MeGGBlGhYko1pKrttQ+DyKAgKhUkpNYQ8jVW7mSMshFWuKQ3Pin41PiKqnsG7jW9jpxUNFGAj76rJMWmAixxBw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/market-pulse-releases/main/releases/MarketPulse-0.3.1.zip" length="4209456" type="application/octet-stream" sparkle:edSignature="V5Pyyn1B//0jMocmmNOkI1a7jZl8uKiRUC7sl47eGPQRVqGNijF5BgKOdJBhhJq6Sf3MZESKUoZoeyg713+kCg=="/>
     </item>
   </channel>
 </rss>
